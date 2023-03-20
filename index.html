@@ -1,0 +1,617 @@
+
+<!DOCTYPE HTML>
+
+
+
+<html lang="ko">
+
+
+
+	<head>
+
+
+
+		<title>데이터 수집 목적 스마트 가로등</title>
+
+
+
+
+
+
+
+		<meta charset="utf-8" />
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+
+
+
+
+
+
+		<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+
+
+		<noscript>
+
+
+
+
+
+
+
+			<link rel="stylesheet" href="/assets/css/noscript.css">
+
+
+
+		</noscript>
+
+
+
+	<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=GtOekqCIX1_hjvKkLrUwmXXaKe7xV4E0f14hYGywEIN32Tv2YBjOYOoD_p-Mew4x" charset="UTF-8"></script></head>
+
+
+
+	<body class="is-preload">
+
+
+
+
+
+
+
+		<!-- Sidebar -->
+
+
+
+			<section id="sidebar">
+
+
+
+				<div class="inner">
+
+
+
+					<nav>
+
+
+
+						<ul>
+
+
+
+							<li><a href="#intro">메인 화면</a></li>
+
+
+
+							<li><a href="#one">CCTV</a></li>
+
+
+
+							<li><a href="#two">날씨 데이터</a></li>
+
+
+
+							<li><a href="#three">평균 온습도</a></li>
+
+
+
+						</ul>
+
+
+
+					</nav>
+
+
+
+				</div>
+
+
+
+			</section>
+
+
+
+
+
+
+
+		<!-- Wrapper -->
+
+
+
+			<div id="wrapper">
+
+
+
+
+
+
+
+				<!-- Intro -->
+
+
+
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+
+
+
+						<div class="inner">
+
+
+
+							<h1>메인 화면</h1>
+
+
+
+							<p>데이터 수집 목적 스마트 가로등 <a href="https://www.youtube.com/watch?v=mWSu1WUIqJ4" target="_blank">예상 목표 영상</a></p>
+
+
+
+							<ul class="actions">
+
+
+
+								<li><a href="#two" class="button scrolly">데이터 확인하기</a></li>
+
+
+
+							</ul>
+
+
+
+						</div>
+
+
+
+					</section>
+
+
+
+
+
+
+
+				<!-- One -->
+
+
+
+
+
+
+
+					<section id="one" class="wrapper style2 spotlights">
+
+
+
+						<div class="inner">
+
+
+
+							<h2>실시간 CCTV 모니터링</h2>
+
+
+
+							<p>각 가로등 CCTV 스트리밍</p>
+
+
+
+							<div class="features" style="left" >
+
+
+
+                                				<section>
+
+										<img src ="http://125.139.137.12:2589/stream/video.mjpeg">
+
+										<embed
+
+										src=http://125.139.137.12:9744/ui/#!/1?socketid=680ADkTur1YTOn3kAAAc hidden=false width=325 height=190>
+
+										</embed>
+
+								</section>
+
+								<section>
+
+										<img src ="http://59.1.186.166:4242/stream/video.mjpeg">
+
+										<embed
+
+										src=http://59.1.186.166:5252/ui/#!/2?socketid=LUjSlDaBKZZs4-gUAAAJ hidden=false width=325 height=190>
+
+										</embed>
+
+								</section>
+
+						
+
+
+							</div>
+
+
+
+						</div>
+
+
+
+					</section>
+
+
+
+				<!-- Two -->
+
+
+
+					<section id="two" class="wrapper style3 fade-up">
+
+
+
+						<div class="inner">
+
+
+
+							<h2>날씨 데이터 수집</h2>
+
+
+
+							<p>모스키토와 Node-Red를 이용한 실시간 날씨 수집 UI</p>
+
+
+
+							<div class="features">
+
+
+
+							<section>
+
+
+
+								<embed
+
+										src=http://125.139.137.12:9744/ui/#!/0?socketid=GtQPLSbrgUdRL74WAAAS hidden=false width=400 height=670>
+
+								</embed>
+
+
+
+							</section>
+
+
+
+							<section>
+
+
+
+								<embed
+
+										src=http://59.1.186.166:5252/ui/#!/0?socketid=LEm0huKeSMziWulEAAAA hidden=false width=400 height=670>
+
+								</embed>
+
+
+
+							</section>
+
+							<!---<section>
+
+
+
+								<embed
+
+										src=http://125.139.137.12:9744/ui/#!/0?socketid=GtQPLSbrgUdRL74WAAAS hidden=false width=400 height=600>
+
+								</embed>
+
+
+
+							</section>
+
+
+
+							<section>
+
+
+
+								<embed
+
+										src=http://59.1.186.166:5252/ui/#!/0?socketid=LEm0huKeSMziWulEAAAA hidden=false width=400 height=600>
+
+								</embed>
+
+
+
+							</section>	-->
+
+
+
+							</div>
+
+
+
+						</div>
+
+
+
+
+
+					</section>
+
+
+
+					</section>
+
+
+
+
+
+
+
+
+
+
+
+				<!-- Three
+
+
+
+				정보기입란+마지막 페이지
+
+
+
+				-->
+
+
+
+					<section id="three" class="wrapper style1 fade-up">
+
+
+
+						<div class="inner">
+
+
+
+							<h2>군산 평균 온습도 실시간 차트</h2>
+
+
+
+							<p>각 지역 주 단위 평균 온습도</p>
+
+
+
+							<div class="split style1">
+
+
+
+								<section>
+
+
+
+									<embed
+
+
+
+											src=http://125.139.137.12:9744/ui/#!/2?socketid=VHX-qPxKpcg4lIZzAAAq hidden=false width=775 height=470>
+
+
+
+									</embed>
+
+
+
+									<ul class="actions">
+
+
+
+										<li><a href="" class="button submit">저장하기 href로 버튼 누를시 링크 이동</a></li>
+
+
+
+									</ul>
+
+
+
+								</section>
+
+
+
+								<section>
+
+
+
+
+									<ul class="contact">
+
+
+
+
+
+
+
+										<li>
+
+
+
+											<h3>Blog</h3>
+
+
+
+											<a href="https://blog.naver.com/arson5012" target="_blank">개인 블로그</a>
+
+
+
+										</li>
+
+
+
+
+
+
+
+										<li>
+
+
+
+											<h3>Github</h3>
+
+
+
+											<ul class="icons">
+
+
+
+												<!---<li><a href="#" class="icon brands fa-twitter"><span class="label">트위터</span></a></li>
+
+
+
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">페이스북</span></a></li>-->
+
+
+
+												<li><a href="https://github.com/arson5012/flask_nodered/tree/master/ask_node" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+
+
+
+												<!--<li><a href="#" class="icon brands fa-instagram"><span class="label">인스타그램</span></a></li>-->
+
+
+
+											</ul>
+
+
+
+										</li>
+
+
+
+									</ul>
+									<br>
+									<br>
+									<embed
+											src="http://125.139.137.12:9744/ui/#!/3?socketid=Rbu8q6aL8BvHNyKIAAAL" hidden=false width=330 height=150>
+
+									</embed>
+
+
+								</section>
+
+
+
+							</div>
+
+
+
+						</div>
+
+
+
+					</section>
+
+
+
+
+
+
+
+			</div>
+
+
+
+
+
+
+
+		<!-- Footer -->
+
+
+
+			<footer id="footer" class="wrapper style1-alt">
+
+
+
+				<div class="inner">
+
+
+
+					<ul class="menu">
+
+
+
+						<li>스마트 가로등</li><li>Project_Lab</li>
+
+
+
+					</ul>
+
+
+
+				</div>
+
+
+
+			</footer>
+
+
+
+
+
+
+
+		<!-- Scripts -->
+
+
+
+			<script src="/js/jquery.min.js" > </script>
+
+
+
+			<script src="/js/jquery.scrollex.min.js" > </script>
+
+
+
+			<script src="/js/jquery.scrolly.min.js" > </script>
+
+
+
+			<script src="/js/browser.min.js" > </script>
+
+
+
+			<script src="/js/breakpoints.min.js" > </script>
+
+
+
+			<script src="/js/util.js" > </script>
+
+
+
+			<script src="/js/main.js" > </script>
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+
+
+
+</html>
+
+
+
+
+
+
